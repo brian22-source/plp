@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  nav a:hover {
+    color: blue;
+  }
+  .home-section {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .home-section .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .home-section .text {
+    order: 1;
+  }
+  
+  .home-section .image {
+    order: 2;
+  }
+  .home-section h1{
+    font-size: 46px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin: 28px;
+    
+
+  }
+  .home-section p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: #666666;
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 10px;
+
+  }
+  .about-section h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 28px;
+    color: #333;
+    
+    margin-bottom: 10px;
+    text-align: center;
+}
+.about-section p {
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    line-height: 2.5;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.about-section p:first-child {
+    margin-top: 10px;
+}
+
+.about-section p:last-child {
+    margin-bottom: 0;
+}
+
+.about-section p:not(:first-child):not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3277c0;
+}
+
+.contact-box {
+  width: 200px;
+  background-color: #eaf4fd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.contact-box {
+  width: 300px; /* Adjust the width to your desired size */
+  height: 250px; /* Adjust the height to your desired size */
+  background-color: #eaf4fd;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.contact-body {
+  text-align: center;
+}
+
+.whatsapp-icon {
+  width: 30px; /* Adjust the width as per your desired size */
+  height: 30px; /* Adjust the height as per your desired size */
+  object-fit: cover; /* Adjust the object-fit property as per your icon shape */
+  margin-bottom: 10px;
+}
+
+.contact-box h3 {
+  font-size: 28px;
+}
+
+.whatsapp-number {
+  font-weight: bold;
+  color: #3277c0;
+  font-size: 16px;
+  text-decoration: underline;
+}
