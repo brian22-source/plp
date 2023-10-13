@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <script>
+    function login() {
+      var password = document.getElementById("password").value;
+      
+      // Check if the entered password is correct
+      if (password === "brian") { // Replace "examplepassword" with your desired password
+        window.location.href = "innerpage.html"; // Redirect to the inner page
+      } else {
+        alert("Incorrect password! Please try again.");
+      }
+    }
+  </script>
+</head>
+<body>
+  <section class="login-section">
+    <h1>Login</h1>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    <br><br>
+    <button type="button" onclick="login()">Login</button>
+  </section>
+</body>
+</html>>
